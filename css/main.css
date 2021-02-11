@@ -65,3 +65,30 @@ header .icons span {
     color:white;
     margin: 0 auto;
 }
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+
+nav .nav_logo_container {
+    margin-left: 50px;
+}
+
+nav .nav_logo_container img {
+    width: 100px;
+    margin-top: 10px;
+}
+
+nav .profile_link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+nav .profile_link a {
+    color: black;
+    border-bottom: 1px solid var(--purple-color);
+}
