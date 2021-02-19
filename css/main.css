@@ -92,3 +92,42 @@ nav .profile_link a {
     color: black;
     border-bottom: 1px solid var(--purple-color);
 }
+
+
+/********* Main Section *******/
+
+.home_main {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 100%;
+    background-image: url("https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    margin-top: 35px;
+
+}
+
+.home_main section {
+    display: grid;
+    grid-column: 2;
+    justify-items: center;
+    height: 350px;
+    margin-top: 80px;
+}
+
+.home_main_text {
+    text-align: center;
+    color: white;
+}
+
+.home_main_button {
+    background-color: var(--purple-color);
+    color: white;
+    padding: 10px;
+    height: 20px;
+    cursor: pointer;
+    
+}
