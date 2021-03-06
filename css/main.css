@@ -31,6 +31,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
+    font-family: 'Raleway Bold', sans-serif;
 }
 
 a {
@@ -41,6 +42,7 @@ a {
 
 
 /********* WEBSITE STYLES *********/
+/****** INDEX *******/
 
 /******* Header Styles *******/
 header {
@@ -146,4 +148,42 @@ nav .profile_link a {
     border-radius: 4px 4px;
     font-family: 'Raleway Semibold', sans-serif;
     font-size: 18px;
+}
+
+
+
+
+/****** BLOGS PAGE *********/
+
+/******** Main Section *****/
+.blogs_main {
+    display: grid;
+    margin-top: 35px;
+}
+
+.blogs_news_container {
+    background-color: #F6F6F6;
+    padding: 0 50px 40px;
+}
+
+.blogs_main_new {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+}
+
+.blogs_news_img_container {
+    grid-column: 1;
+}
+
+.blogs_news_img_container img {
+    width: 80%;
+}
+
+.blogs_news_info_container {
+    grid-column: 2;
+}
+
+.blogs_news_info_container p {
+    margin-bottom: 35px;
 }
