@@ -26,11 +26,6 @@
 body {
     margin: 0;
     padding: 0;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
     font-family: 'Raleway Bold', sans-serif;
 }
 
@@ -38,6 +33,14 @@ a {
     text-decoration: none;
     display: inline;
     color: black;
+}
+
+.home_body {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 
@@ -177,7 +180,10 @@ nav .profile_link a {
 }
 
 .blogs_news_img_container img {
-    width: 80%;
+    width: 75%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .blogs_news_info_container {
@@ -186,4 +192,57 @@ nav .profile_link a {
 
 .blogs_news_info_container p {
     margin-bottom: 35px;
+}
+
+/******* Posts Section ********/
+.blogs_posts_container {
+    padding: 0 50px 40px;
+}
+
+.blogs_posts_container h3 {
+    border-bottom: 1px solid #bebebe;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'Raleway Bold', sans-serif ;
+}
+
+.blogs_button {
+    border: 1px solid var(--purple-color);
+    padding: 10px 15px;
+    font-size: 12px;
+}
+
+.blogs_button:hover {
+    border: 1px solid var(--purple-color);
+    color: white;
+    background-color: var(--purple-color);
+}
+
+.blogs_posts_container .post_container {
+    display: inline-block;
+    padding-left: 10px;
+    max-width: 30%;
+    margin-bottom: 50px;
+}
+
+.blogs_posts_container .post_container p {
+    margin-bottom: 35px;
+}
+
+.blogs_posts_container .post_container img {
+    width: 100%;
+}
+
+
+/******** Footer *******/
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: var(--purple-color);
+    border-top: 35px solid var(--blue-color);
+    text-align: center;
+}
+
+footer p {
+    color: white;
 }
