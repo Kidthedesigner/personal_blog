@@ -199,6 +199,15 @@ nav .profile_link a {
 /******* Posts Section ********/
 .blogs_posts_container {
     padding: 0 50px 40px;
+    text-align: center;
+}
+
+.blogs_posts_container .post_container {
+    display: inline-block;
+    padding-left: 10px;
+    max-width: 30%;
+    margin-bottom: 50px;
+    text-align: left;
 }
 
 .blogs_posts_container h3 {
