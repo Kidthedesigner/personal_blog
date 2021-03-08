@@ -14,7 +14,7 @@
     --black-color: #2b2b2b;
     --purple-color: #5C2E90;
     /************** Espaciado  */
-    --space: 10px;
+    /*--space: 10px;
     --space2: 20px;
     /************** Box Shadow  */
     --box: 0px 4px 8px #c1bcbc;
@@ -43,6 +43,10 @@ a {
     right: 0;
 }
 
+.grid_container {
+    max-width: 980px;
+    margin: auto;
+}
 
 /********* WEBSITE STYLES *********/
 /****** INDEX *******/
@@ -180,10 +184,8 @@ nav .profile_link a {
 }
 
 .blogs_news_img_container img {
-    width: 75%;
+    width: 90%;
     display: block;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 .blogs_news_info_container {
