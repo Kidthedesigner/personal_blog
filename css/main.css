@@ -293,8 +293,31 @@ footer p {
 
 /*********** Contact Section *******/
 .contact_main_container {
+    width: 100%;
     display: flex;
-    
+    min-height: 250px;
+    background-color: #bebebe;
+    text-align: center;
+    padding-bottom: 50px;
 }
 
+.contact_main_container div {
+    display: inline-block;
+    width: 49.5%;
+    height: 100%;
+}
+
+.contact_main_container div a {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.contact_main_container .contact_left, .contact_right {
+    text-align: initial;
+    margin-top: 85px;
+}
+
+.contact_main_container img {
+    width: 100px;
+}
 
