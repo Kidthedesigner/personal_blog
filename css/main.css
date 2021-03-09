@@ -48,6 +48,16 @@ a {
     margin: auto;
 }
 
+h1 {
+    font-size: 35px;
+    font-family: 'Raleway Bold', sans-serif;
+}
+
+p {
+    font-size: 17px;
+    font-family: 'Open Sans Regular' sans-serif;
+}
+
 /********* WEBSITE STYLES *********/
 /****** INDEX *******/
 
@@ -257,3 +267,34 @@ footer {
 footer p {
     color: white;
 }
+
+
+
+/******** BLOG PAGE ***********/
+
+
+.blogpost_img_container {
+    padding:  0 50px 40px;
+}
+
+.blogpost_img_container img {
+    width: 100%;
+}
+
+.blogpost_main_container {
+    padding: 0 50px 40px;
+}
+
+.blogpost_main_container h3 {
+    border-bottom: 1px solid #bebebe;
+    padding-bottom: 20px;
+}
+
+
+/*********** Contact Section *******/
+.contact_main_container {
+    display: flex;
+    
+}
+
+
