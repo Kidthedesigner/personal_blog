@@ -146,7 +146,7 @@ nav .profile_link a {
 
 .home_main_text {
     text-align: center;
-    color: white;
+    color: black;
     font-size: 40px;
     font-weight: 700;
     margin-top: 80px;
@@ -272,6 +272,9 @@ footer p {
 
 /******** BLOG PAGE ***********/
 
+.main_blog_section {
+    margin-top: 35px;
+}
 
 .blogpost_img_container {
     padding:  0 50px 40px;
